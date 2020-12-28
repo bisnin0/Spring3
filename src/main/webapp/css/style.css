@@ -1,0 +1,21 @@
+@charset "UTF-8";
+ul, li{margin:0;padding:0;list-style-type:none}
+
+#top{
+	height:100px; background-color:pink;
+}
+#top li{
+	float:left; height:100px; width:20%; line-height:100px; text-align:center;
+}
+#bottom{
+	height:50px; background-color:orange;
+}
+#top2{
+	height:20px; background-color:gray;
+}
+/*자료실*/
+#dataList li{height:40px; line-height:40px; float:left; border-bottom:1px solid gray; width:10%;}
+#dataList li:nth-child(4n+2){width:50%;}
+#dataList li:nth-child(4n){width:30%;}
+
+.wordCut{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
